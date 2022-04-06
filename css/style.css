@@ -18,15 +18,33 @@ div.container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50vh;
+    padding-top: 30vh;
     transform: calc(100vh - 50vh);
 }
 
+div.bg-color {
+    background-color: darkcyan;
+    padding: 8rem;
+    border: 4px solid black;
+    border-radius: 50px;
+}
+
+div.bg-color:hover {
+    background-color: rgb(2, 190, 190);
+}
+
 h1 {
-    border: black 1px solid;
+    padding-bottom: 3rem;
 }
 
 div#password {
     background-color: greenyellow;
     border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+div#password:hover {
+    padding: 5px;
+    font-size: 1.5rem;
 }
